@@ -8,3 +8,9 @@ def create_app(config_name):
 
     app.config.from_object(config_option[config_name])
 
+    from .news_request import configure_request
+    configure_request(app)
+
+
+    return app 
+
