@@ -1,5 +1,5 @@
-from flask import Flask
 from config import config_option
+from flask import Flask
 from flask_bootstrap import Bootstrap
 
 
@@ -11,6 +11,7 @@ def create_app(config_name):
 
     from .news_request import configure_request
     configure_request(app)
+    bootstrap = Bootstrap(app)
 
 
     return app 
