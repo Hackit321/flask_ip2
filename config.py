@@ -1,6 +1,22 @@
+import os
+
+
 class Config:
+
+
+
 
 class DevConfig:
 
+    DEBUG =True
 
-DEBUG = True
+
+    config_option ={
+        'development':DevConfig
+
+
+
+
+    }
+
+
