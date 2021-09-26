@@ -13,4 +13,21 @@ class Articles :
         self.urlToImage = urlToImage
         self.publishedAt = publishedAt
 
+
+class Sources:
+
+    '''
+    soucrces class that defines each source object
+    '''
+
+    def __init__(self,id,name,description,url,category,language,country):
+
+        self.name = name
+        self.id = id 
+        self.description = description
+        self.url = url
+        self.category = category
+        self.country = country
+    
+
         
