@@ -1,4 +1,4 @@
-from app import app 
+from app.__init import app 
 
 
 

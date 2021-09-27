@@ -12,17 +12,13 @@ class Config:
 
 
 
-class DevConfig:
+class DevConfig(Config):
 
     DEBUG =True
 
 
     config_option ={
         'development':DevConfig
-
-
-
-
     }
 
 
